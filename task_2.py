@@ -31,18 +31,12 @@ import os
 from comet_ml import Experiment
 from comet_ml import init
 import comet_ml
-#from comet_ml.integration.metaflow import comet_flow
-#from comet_ml import integration
-## Create an experiment with your api key
-
 # Create an experiment with your api key
 
 experiment = Experiment(
             api_key="APhJUciWYinYwUTCb8VlyRWGG",
             project_name="FRE7773ML2022_HW4_task_2_modified",
-            workspace="irenelxr",
-            #auto_metric_step_rate=1,
-            #auto_output_logging="simple"
+            workspace="irenelxr"
          )
 class LogisticRegressionFlow(FlowSpec):
     """
