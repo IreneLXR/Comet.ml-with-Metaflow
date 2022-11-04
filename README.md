@@ -56,18 +56,35 @@ Then from the Comet dashboard, we can observe that when we set solver = , it wil
 
 
 
-## 3. Instructions for Comet panel
+## 3. Introductions for Comet panel
 
 After you click into the page, the first thing you will see is the panel as shown below:
 
+![image](https://user-images.githubusercontent.com/46698580/200077012-d605535f-0b3b-4e2c-8723-c1932112c6ea.png)
 
+Then you can visit the Experiments tab, in this page, all experiments are listed:
 
-Then you can visit the Experiment tab, in this page, all experiments are listed, and you can visit the experiment with tag = test to see the result of the model run on test dataset:
+![image](https://user-images.githubusercontent.com/46698580/200078503-1c305974-ef7b-4b13-ab36-2b52dd273fc1.png)
 
+Figure.: Experiments page.
+
+You can visit the experiment with tag = test to see the result of the model run on test dataset. ou can visit the chart, metrics, graphics, and confusion matrix to explore the performance:
+
+![image](https://user-images.githubusercontent.com/46698580/200078615-55974f2c-c5d5-48ad-855f-3e1dea4ade72.png)
+
+Figure.: Dashboard for experiment with tag = test
 
 You can also visit the experiment with tag = join, this page shows the comparsion of the performance of 4 different values on the validation dataset. You can visit the chart, metrics, graphics, and confusion matrix to explore the performance:
 
+![image](https://user-images.githubusercontent.com/46698580/200078717-9086272e-d316-4ad1-af58-f828648137ae.png)
+
+Figure.: Dashboard for experiment with tag = join
 
 Then you can also visit the experiments with tag = validate, those pages show the the performance of 4 different values on the validation dataset corresponding to each solver separately. You can visit the chart, metrics, graphics, and confusion matrix to explore the performance:
+
+![image](https://user-images.githubusercontent.com/46698580/200079320-dec47ecb-ace3-459c-9572-66c00caa349f.png)
+
+Figure.: Dashboard for experiment with tag = validation
+
 
 
